@@ -1,0 +1,169 @@
+[org/gnome/desktop/app-folders]
+folder-children=['Games', 'GamingUtilities', 'Utilities', 'Containers', 'Waydroid', 'Wine', 'YaST', 'Pardus', 'cbf5057b-1163-42ad-9e28-e0d9c824f6e4', 'ca884475-f289-4dcd-8282-d46c42cf2f99', 'd11c8f6b-a120-4260-b048-966b8a360def', '87e9ac35-f48e-44ab-9558-226d3e5ad567']
+
+[org/gnome/desktop/app-folders/folders/87e9ac35-f48e-44ab-9558-226d3e5ad567]
+apps=['org.torproject.torbrowser-launcher.desktop', 'one.ablaze.floorp.desktop']
+name='Internet'
+
+[org/gnome/desktop/app-folders/folders/Containers]
+apps=['io.github.dvlv.boxbuddyrs.desktop', 'com.ranfdev.DistroShelf.desktop', 'io.podman_desktop.PodmanDesktop.desktop', 'com.github.marhkb.Pods.desktop', 'org.gnome.baobab.desktop']
+categories=['Distrobox']
+name='Containers'
+translate=false
+
+[org/gnome/desktop/app-folders/folders/Games]
+apps=['bazzite-steam-bpm.desktop', 'net.lutris.Lutris.desktop']
+categories=['Game']
+excluded-apps=['steam.desktop', 'io.github.benjamimgois.goverlay.desktop', 'com.vysp3r.ProtonPlus.desktop', 'io.github.fastrizwaan.WineZGUI.desktop']
+name='Games'
+translate=false
+
+[org/gnome/desktop/app-folders/folders/GamingUtilities]
+apps=['com.github.Matoking.protontricks.desktop', 'discover_overlay_configure.desktop', 'com.vysp3r.ProtonPlus.desktop', 'io.github.benjamimgois.goverlay.desktop', 'com.gerbilsoft.rom-properties.rp-config.desktop', 'input-remapper-gtk.desktop', 'steamos-nested-desktop.desktop', 'dev.lizardbyte.app.Sunshine.desktop', 'io.github.radiolamp.mangojuice.desktop']
+name='Gaming Utilities'
+translate=false
+
+[org/gnome/desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['system-update.desktop', 'webapp-manager.desktop', 'tuned-gui.desktop', 'rog-control-center.desktop', 'fish.desktop', 'tuned-gui.desktop', 'nvtop.desktop', 'yelp.desktop', 'btop.desktop', 'com.github.tchx84.Flatseal.desktop', 'io.github.flattool.Warehouse.desktop', 'it.mijorus.gearlever.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'org.gnome.tweaks.desktop', 'com.github.GradienceTeam.Gradience', 'io.github.fastrizwaan.WineZGUI.desktop', 'setroubleshoot.desktop', 'org.rncbc.qsynth.desktop', 'bazzite-documentation.desktop', 'bazzite-landing.desktop', 'discourse.desktop', 'de.leopoldluley.Clapgrep.desktop', 'btrfs-assistant.desktop', 'org.virt_manager.virt-manager.desktop', 'io.github.flattool.Ignition.desktop', 'firewall-config.desktop', 'org.freedesktop.MalcontentControl.desktop', 'page.tesk.Refine.desktop', 'bbrew.desktop', 'org.gnome.Firmware.desktop', 'cardwire-gui.desktop', 'nvidia-settings.desktop', 'org.gnome.Logs.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Yelp.desktop', 'org.torproject.torbrowser-launcher.settings.desktop']
+categories=['X-GNOME-Utilities']
+excluded-apps=['io.github.ublue_os.yafti_gtk.desktop']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Waydroid]
+apps=['Waydroid.desktop']
+categories=['X-WayDroid-App']
+name='Waydroid'
+translate=false
+
+[org/gnome/desktop/app-folders/folders/Wine]
+apps=['winetricks.desktop']
+categories=['X-Wine', 'wine-wine']
+name='Wine'
+translate=false
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/ca884475-f289-4dcd-8282-d46c42cf2f99]
+apps=['io.missioncenter.MissionCenter.desktop', 'io.github.rfrench3.bazzite-updater.desktop', 'org.gnome.Settings.desktop', 'io.github.ublue_os.yafti_gtk.desktop']
+name='OS_Stuff'
+translate=false
+
+[org/gnome/desktop/app-folders/folders/cbf5057b-1163-42ad-9e28-e0d9c824f6e4]
+apps=['org.gnome.Loupe.desktop', 'org.gnome.clocks.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Showtime.desktop', 'org.gnome.Characters.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.TextEditor.desktop']
+name='Standart Programme'
+translate=false
+
+[org/gnome/desktop/app-folders/folders/d11c8f6b-a120-4260-b048-966b8a360def]
+apps=['ai.storyteller.artcraft-launcher.desktop', 'ai.storyteller.wordcraft.desktop', 'ai.storyteller.gridcraft.desktop', 'ai.storyteller.pdfcraft.desktop', 'ai.storyteller.solidcraft.desktop']
+name='Craft'
+translate=false
+
+[org/gnome/shell]
+app-picker-layout=[{'ca884475-f289-4dcd-8282-d46c42cf2f99': <{'position': <0>}>, 'd11c8f6b-a120-4260-b048-966b8a360def': <{'position': <1>}>, '87e9ac35-f48e-44ab-9558-226d3e5ad567': <{'position': <2>}>, 'com.bitwarden.desktop.desktop': <{'position': <3>}>, 'com.teamspeak.TeamSpeak.desktop': <{'position': <4>}>, 'org.signal.Signal.desktop': <{'position': <5>}>, 'io.github.kolunmi.Bazaar.desktop': <{'position': <6>}>, 'md.obsidian.Obsidian.desktop': <{'position': <7>}>, 'xyz.xclicker.xclicker.desktop': <{'position': <8>}>}, {'cbf5057b-1163-42ad-9e28-e0d9c824f6e4': <{'position': <0>}>, 'Containers': <{'position': <1>}>, 'Games': <{'position': <2>}>, 'GamingUtilities': <{'position': <3>}>, 'Utilities': <{'position': <4>}>, 'Waydroid': <{'position': <5>}>, 'eu.nokun.MirrorHall.desktop': <{'position': <6>}>, 'com.github.jeromerobert.pdfarranger.desktop': <{'position': <7>}>}]
+favorite-apps=['com.brave.Browser.desktop', 'org.jellyfin.JellyfinDesktop.desktop', 'steam.desktop', 'org.vinegarhq.Sober.desktop', 'com.orcaslicer.OrcaSlicer.desktop', 'org.gnome.Ptyxis.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/giants.jxl'
+picture-uri-dark='file:///usr/share/backgrounds/giants.jxl'
+primary-color='#69A7AA'
+secondary-color='#6F6855'
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/giants.jxl'
+primary-color='#69A7AA'
+secondary-color='#6F6855'
+
+[org/gnome/desktop/interface]
+accent-color='orange'
+color-scheme='prefer-dark'
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'de')]
+xkb-options=@as []
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
+
+[org/gnome/mutter]
+edge-tiling=true
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-schedule-automatic=false
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Control><Alt>t'
+command='ptyxis --new-window'
+name='Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Control><Alt>KP_Delete'
+command='flatpak run io.missioncenter.MissionCenter'
+name='Mission Center'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Control><Shift>Escape'
+command='flatpak run io.missioncenter.MissionCenter'
+name='Mission Center'
+
+[org/gnome/shell/extensions/Logo-menu]
+hide-forcequit=true
+hide-icon-shadow=false
+hide-warehouse=true
+menu-button-extensions-app='com.mattjakeman.ExtensionManager.desktop'
+menu-button-icon-image=0
+menu-button-icon-size=20
+menu-button-software-center='/usr/bin/bazaar'
+menu-button-system-monitor='/usr/bin/missioncenter-helper'
+menu-button-terminal='ptyxis --new-window'
+show-activities-button=true
+show-distroshelf=true
+show-gamemode=false
+show-lockscreen=false
+show-power-option=false
+symbolic-icon=false
+
+[org/gnome/shell/extensions/add-to-steam]
+use-nautilus=false
+
+[org/gnome/shell/extensions/appindicator]
+legacy-tray-enabled=true
+
+[org/gnome/shell/extensions/blur-my-shell/appfolder]
+brightness=0.59999999999999998
+sigma=30
+
+[org/gnome/shell/extensions/blur-my-shell/dash-to-dock]
+blur=true
+brightness=0.59999999999999998
+sigma=30
+static-blur=true
+style-dash-to-dock=0
+
+[org/gnome/shell/extensions/blur-my-shell/panel]
+brightness=0.59999999999999998
+corner-radius=0
+sigma=30
+
+[org/gnome/shell/extensions/blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=30
+
+[org/gnome/shell/extensions/caffeine]
+cli-toggle=false
+indicator-position-max=2
